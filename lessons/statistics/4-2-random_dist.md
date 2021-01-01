@@ -11,3 +11,5 @@ thinkplot.Config(xlabel='Random variate', ylabel='PMF')<br/>
 cdf = thinkstats2.Cdf(t)<br/>
 thinkplot.Cdf(cdf)<br/>
 thinkplot.Config(xlabel='Random variate', ylabel='CDF')<br/>
+
+Yes, it is distribution uniform. <br/>
