@@ -12,7 +12,7 @@ It also takes log_upper, which is an assumed upper bound on the highest range, e
 
 InterpolateSample generates a pseudo-sample; that is, a sample of household incomes that yields the same number of respondents in each range as the actual data. It assumes that incomes in each range are equally spaced on a log10 scale.
 
-def InterpolateSample(df, log_upper=6.0):
+    def InterpolateSample(df, log_upper=6.0):
     """Makes a sample of log10 household income.
 
     Assumes that log10 income is uniform in each range.
